@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ember &amp; Oak | Wood-fired seasonal kitchen</title>
+  <meta name="description" content="A small kitchen cooking over open flame. Seasonal menu, local farms, reservations online.">
+  <meta name="theme-color" content="#FAF7F2">
+  <script>document.documentElement.classList.add('js')</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" aria-hidden="true"></div>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="logo" href="#top">Ember <i>&amp;</i> Oak</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu"><span></span><span></span></button>
+    <nav id="nav-links" class="nav-links" aria-label="Main">
+      <a href="#menu">Menu</a><a href="#story">Our Story</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a><a href="#visit">Visit</a>
+      <a class="btn btn-dark sm" href="#visit">Reserve a table <span class="arr">→</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero wrap" id="top">
+    <div class="hero-text">
+      <p class="eyebrow rise" style="--d:.1s">Wood-fired kitchen · Est. 2016</p>
+      <h1 class="rise" style="--d:.2s">Fire, salt and the best of the <em>season.</em></h1>
+      <p class="lead rise" style="--d:.35s">A small kitchen cooking over open flame. Honest ingredients from local farms, a menu that changes with the weather, and a table that is always set for you.</p>
+      <div class="actions rise" style="--d:.5s">
+        <a class="btn btn-dark" href="#visit">Reserve a table <span class="arr">→</span></a>
+        <a class="btn btn-line" href="#menu">View menu</a>
+      </div>
+      <dl class="stats rise" style="--d:.65s">
+        <div><dt>Guest rating</dt><dd data-count="4.9" data-dec="1">4.9</dd></div>
+        <div><dt>Of open-fire cooking</dt><dd data-count="10" data-suffix=" yrs">10 yrs</dd></div>
+        <div><dt>Locally sourced</dt><dd data-count="100" data-suffix="%">100%</dd></div>
+      </dl>
+    </div>
+    <div class="hero-media rise" style="--d:.3s">
+      <div class="ph hero-img reveal-img" data-img="hero" data-parallax role="img" aria-label="Hero dish"><span>Image: Hero dish</span></div>
+      <div class="open-badge" id="open-badge" hidden><span class="pulse"></span><div><span id="open-title"></span><small id="open-sub"></small></div></div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="marquee-group"><span>Wood-fired</span><span>Seasonal</span><span>Locally sourced</span><span>Open flame</span><span>Small plates, big flavour</span></div>
+      <div class="marquee-group"><span>Wood-fired</span><span>Seasonal</span><span>Locally sourced</span><span>Open flame</span><span>Small plates, big flavour</span></div>
+    </div>
+  </div>
+
+  <section class="band" id="story" style="padding-block:128px">
+    <div class="wrap split">
+      <div class="ph tall reveal-img" data-img="story" data-parallax role="img" aria-label="Chef at the open fire"><span>Image: Chef at the open fire</span></div>
+      <div>
+        <p class="eyebrow reveal">Our story</p>
+        <h2 class="reveal" style="--d:.1s">Cooking that starts at the <em>farm gate.</em></h2>
+        <p class="muted reveal" style="--d:.2s">Ember &amp; Oak began as a single hearth and a handful of tables. Today we still cook everything over wood, buy from growers we know by name, and keep the menu short so every plate gets full attention.</p>
+        <ul class="values">
+          <li class="reveal" style="--d:.1s"><strong>Seasonal</strong><span>Menu rewritten every few weeks, following what is ripe.</span></li>
+          <li class="reveal" style="--d:.2s"><strong>Local</strong><span>Produce, dairy and meat from farms within 100 km.</span></li>
+          <li class="reveal" style="--d:.3s"><strong>Open fire</strong><span>Oak and fruitwood only. Slow, honest, full of flavour.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="menu">
+    <div class="head-row">
+      <div><p class="eyebrow reveal">The menu</p><h2 class="reveal" style="--d:.1s">Signature <em>dishes</em></h2></div>
+      <div class="tabs reveal" style="--d:.2s" role="tablist" aria-label="Menu categories" id="menu-tabs"></div>
+    </div>
+    <div class="cards" id="menu-cards" aria-live="polite"><p class="muted">Loading menu…</p></div>
+  </section>
+
+  <section class="dark">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow light reveal">From the chef</p>
+        <blockquote class="reveal" style="--d:.1s">“Good food is simple. Great ingredients, a hot fire, and the patience to leave them alone.”</blockquote>
+        <p class="sig reveal" style="--d:.2s"><strong>Chef Daniel Moreau</strong><span>Founder &amp; Head Chef</span></p>
+      </div>
+      <div class="ph portrait reveal-img" data-img="chef" data-parallax role="img" aria-label="Chef portrait"><span>Image: Chef portrait</span></div>
+    </div>
+  </section>
+
+  <section class="section wrap" id="gallery">
+    <p class="eyebrow reveal">Gallery</p><h2 class="reveal" style="--d:.1s">A look <em>inside</em></h2>
+    <div class="gallery">
+      <div class="ph g1 reveal-img" data-img="gallery-1" role="img" aria-label="Dining room"><span>Image: Dining room</span></div>
+      <div class="ph g2 reveal-img" style="--d:.12s" data-img="gallery-2" role="img" aria-label="Wood oven"><span>Image: Wood oven</span></div>
+      <div class="ph g1 reveal-img" style="--d:.24s" data-img="gallery-3" role="img" aria-label="Seasonal plate"><span>Image: Seasonal plate</span></div>
+      <div class="ph g2 reveal-img" style="--d:.36s" data-img="gallery-4" role="img" aria-label="Bar"><span>Image: Bar</span></div>
+    </div>
+  </section>
+
+  <section class="band" id="reviews">
+    <div class="wrap">
+      <div class="center"><p class="eyebrow reveal">Reviews</p><h2 class="reveal" style="--d:.1s">What guests are <em>saying</em></h2></div>
+      <div class="cards" id="review-cards"></div>
+    </div>
+  </section>
+
+  <section class="section wrap split visit" id="visit">
+    <div>
+      <p class="eyebrow reveal">Visit us</p>
+      <h2 class="reveal" style="--d:.1s">Reserve your <em>table.</em></h2>
+      <p class="muted reveal" style="--d:.2s">Walk-ins are welcome, but we recommend booking ahead on weekends.</p>
+      <div class="info reveal" style="--d:.3s">
+        <h3>Hours</h3><p>Tue – Thu&nbsp;&nbsp; 5 pm – 11 pm<br>Fri – Sun&nbsp;&nbsp; 12 pm – 12 am<br>Monday closed</p>
+        <h3>Address</h3><p>24 Orchard Lane, Old Town</p>
+        <h3>Contact</h3><p><a href="tel:+00123456789">+00 123 456 789</a><br><a href="mailto:hello@emberandoak.com">hello@emberandoak.com</a></p>
+      </div>
+    </div>
+
+    <form class="form reveal" style="--d:.15s" id="booking" novalidate>
+      <h3 class="form-title">Book a table</h3>
+      <label>Full name<input name="name" autocomplete="name" required maxlength="80" placeholder="Your name"><small class="err" data-for="name"></small></label>
+      <label>Email<input name="email" type="email" autocomplete="email" required placeholder="you@example.com"><small class="err" data-for="email"></small></label>
+      <div class="row">
+        <label>Date<input name="date" type="date" required><small class="err" data-for="date"></small></label>
+        <label>Guests<select name="guests" required></select><small class="err" data-for="guests"></small></label>
+      </div>
+      <label>Time<select name="time" required disabled><option value="">Choose a date first</option></select><small class="err" data-for="time"></small></label>
+      <label>Phone <span class="opt">(optional)</span><input name="phone" type="tel" autocomplete="tel" maxlength="30"></label>
+      <label>Notes <span class="opt">(optional)</span><textarea name="notes" rows="2" maxlength="300" placeholder="Allergies, celebrations, seating needs"></textarea></label>
+      <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <button class="btn btn-dark block" type="submit">Confirm reservation <span class="arr">→</span></button>
+      <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="foot-top">
+      <div><p class="logo light">Ember <i>&amp;</i> Oak</p><p class="dim">Wood-fired seasonal kitchen.</p></div>
+      <nav class="foot-cols" aria-label="Footer">
+        <div><h4>Explore</h4><a href="#menu">Menu</a><a href="#story">Our Story</a><a href="#gallery">Gallery</a><a href="#reviews">Reviews</a></div>
+        <div><h4>Visit</h4><a href="#visit">Reservations</a><a href="#visit">Hours</a><a href="#visit">Location</a></div>
+        <div><h4>Follow</h4><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">TikTok</a></div>
+      </nav>
+    </div>
+    <p class="wordmark" aria-hidden="true">Ember &amp; Oak</p>
+    <div class="foot-bottom"><span>© <span id="year">2026</span> Ember &amp; Oak. All rights reserved.</span><span>Privacy · Terms</span></div>
+  </div>
+</footer>
+
+<a class="btn btn-dark m-cta" href="#visit">Reserve a table <span class="arr">→</span></a>
+<script src="app.js"></script>
+</body>
+</html>

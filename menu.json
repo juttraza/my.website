@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "category": "Starters",
+    "name": "Charred Octopus",
+    "description": "Smoked paprika, crushed potato, lemon oil and herbs.",
+    "price": 24
+  },
+  {
+    "id": 2,
+    "category": "Starters",
+    "name": "Burnt leek and goat cheese",
+    "description": "Hazelnut, honey, grilled sourdough.",
+    "price": 16
+  },
+  {
+    "id": 3,
+    "category": "Starters",
+    "name": "Fire-roasted beets",
+    "description": "Whipped labneh, dill, pickled shallot.",
+    "price": 15
+  },
+  {
+    "id": 4,
+    "category": "Mains",
+    "name": "Oak-grilled ribeye",
+    "description": "Dry-aged 45 days, bone marrow butter, burnt shallot.",
+    "price": 46
+  },
+  {
+    "id": 5,
+    "category": "Mains",
+    "name": "Hearth-baked squash",
+    "description": "Whipped feta, brown butter, toasted seeds, sage.",
+    "price": 22
+  },
+  {
+    "id": 6,
+    "category": "Mains",
+    "name": "Whole roasted trout",
+    "description": "Fennel, capers, charred lemon, green sauce.",
+    "price": 34
+  },
+  {
+    "id": 7,
+    "category": "Desserts",
+    "name": "Smoked caramel pot",
+    "description": "Sea salt, cultured cream, oat crumble.",
+    "price": 13
+  },
+  {
+    "id": 8,
+    "category": "Desserts",
+    "name": "Baked apple tart",
+    "description": "Fruitwood-roasted apples, vanilla ice cream.",
+    "price": 14
+  },
+  {
+    "id": 9,
+    "category": "Desserts",
+    "name": "Dark chocolate and olive oil",
+    "description": "Flaky salt, whipped cream.",
+    "price": 13
+  },
+  {
+    "id": 10,
+    "category": "Drinks",
+    "name": "Ember old fashioned",
+    "description": "Rye, smoked maple, orange bitters.",
+    "price": 15
+  },
+  {
+    "id": 11,
+    "category": "Drinks",
+    "name": "House cider",
+    "description": "Dry, pressed from local orchard apples.",
+    "price": 9
+  },
+  {
+    "id": 12,
+    "category": "Drinks",
+    "name": "Cold-brew tonic",
+    "description": "Single-origin coffee, tonic, citrus peel.",
+    "price": 8
+  }
+]
